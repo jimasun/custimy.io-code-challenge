@@ -7,7 +7,7 @@ import ITag from './ITag'
 
 import './TagsNavigation.css'
 
-import data from '../../data'
+import data from '../data'
 
 export const Dropdown = ({ opened = false, tagsSelected, handleAddTag }:
   {

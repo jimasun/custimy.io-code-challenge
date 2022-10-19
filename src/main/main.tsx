@@ -3,7 +3,7 @@ import { ReactElement } from 'react'
 import Header from './header'
 import Footer from './footer'
 
-import Challenge from '../dropdown/Challenge'
+import Challenge from '../challenge/Challenge'
 
 import './main.css'
 

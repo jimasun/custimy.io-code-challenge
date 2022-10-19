@@ -13,8 +13,7 @@ export const TagsCategory = ({ categories, selected, onClick }:
         {categories.map((category: string) =>
             <span
                 className={`category ${category === selected && "selected"}`}
-                onClick={() => onClick(category)}
-            >
+                onClick={() => onClick(category)}>
                 {category}
             </span>
         )}

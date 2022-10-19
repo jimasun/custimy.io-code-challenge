@@ -3,7 +3,8 @@ import { ReactElement, useState } from "react";
 import AddFilter from './AddFilter'
 import TagsNavigation from './TagsNavigation'
 import TagsCloud from './TagsCloud'
-import ITag from './ITag'
+import ITag from './common/ITag'
+
 
 export const Challenge = (): ReactElement => {
 

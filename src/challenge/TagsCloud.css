@@ -1,10 +1,7 @@
 .tags {
+    max-width: 440px;
     margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     gap: 10px;
-
     cursor: default;
 }
 
@@ -14,6 +11,8 @@
     box-sizing: border-box;
     align-items: center;
 
+    margin: 0 10px 10px 0;
+
     height: 25px;
     padding: 6px;
     border-radius: 50px;
@@ -22,6 +21,7 @@
     background-color: #f1f5f5;
     letter-spacing: -0.05px;
     font-size: 12px;
+    line-height: 14px;
 }
 
 .tag>.close {

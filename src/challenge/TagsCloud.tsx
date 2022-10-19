@@ -1,8 +1,10 @@
 import { ReactElement } from "react";
 
+import ITag from './common/ITag'
+
+import './common/font.css'
 import './TagsCloud.css'
 
-import ITag from './ITag'
 
 export const TagsCloud = ({ tagsSelected, handleRemTag }:
   {
@@ -12,7 +14,7 @@ export const TagsCloud = ({ tagsSelected, handleRemTag }:
 
   <div className="tags">
     {tagsSelected.map((tag) => (
-      <div className="tag">
+      <div className="tag font">
         {`${tag.category}: ${tag.name}`}
         <span className="close" onClick={() => handleRemTag(tag)} />
       </div>

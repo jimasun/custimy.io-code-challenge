@@ -3,7 +3,7 @@ import { ChangeEvent, ReactElement, useState } from 'react'
 import TagsCategory from './TagsCategory'
 import TagsList from './TagsList'
 import Search from './Search'
-import ITag from './ITag'
+import ITag from './common/ITag'
 
 import './TagsNavigation.css'
 
@@ -34,7 +34,7 @@ export const Dropdown = ({ opened = false, tagsSelected, handleAddTag }:
   }
 
   return (
-    <div className={`dropdown ${opened || "closed"}`}>
+    <div className={`tagsNavigation ${opened || "closed"}`}>
 
       <TagsCategory
         categories={Object.keys(data.Categories)}

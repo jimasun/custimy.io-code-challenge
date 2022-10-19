@@ -1,6 +1,8 @@
 import { ReactElement } from "react"
 
+import './common/font.css'
 import './TagsCategory.css'
+
 
 export const TagsCategory = ({ categories, selected, onClick }:
     {
@@ -12,7 +14,7 @@ export const TagsCategory = ({ categories, selected, onClick }:
     <div className="categories">
         {categories.map((category: string) =>
             <span
-                className={`category ${category === selected && "selected"}`}
+                className={`category font ${category === selected && "selected"}`}
                 onClick={() => onClick(category)}>
                 {category}
             </span>

@@ -17,13 +17,6 @@
     background-size: 23px;
     background-position-x: 8px;
     background-position-y: center;
-
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #9fa2b4;
 }
 
 .search:hover {

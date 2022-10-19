@@ -7,13 +7,11 @@
 
 .category {
     display: inline-flex;
-
     height: 40px;
     margin-left: 20px;
-
     align-items: center;
-
     cursor: pointer;
+    color: #000000;
 }
 
 .category:hover {

@@ -1,7 +1,8 @@
 import { MouseEvent, ReactElement } from "react"
 
-import ITag from "./ITag"
+import ITag from "./common/ITag"
 
+import './common/font.css'
 import './TagsList.css'
 
 
@@ -28,7 +29,7 @@ export const TagsList = ({ category, items, active, tagsSelected, handleAddTag }
     return (
         <div className={`entries ${active && 'selected'}`}>
             {items.map((name: string) =>
-                <div className={`entry ${tagsSelected.includes({ category, name }) && 'selected'}`}
+                <div className={`entry font ${tagsSelected.includes({ category, name }) && 'selected'}`}
                     onClick={(event) => handleItemClick(event, { category, name })}>
                     <span className={`icon ${genIconName(name)}`} />
                     {name}

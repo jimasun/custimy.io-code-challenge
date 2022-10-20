@@ -9,7 +9,7 @@ import ITag from './common/ITag'
 export const Challenge = (): ReactElement => {
 
     const [dropdownOpened, setdropdownOpened] = useState<boolean>(false)
-    const [tagsSelected, setTagsSelected] = useState<Array<ITag>>([] as ITag[])
+    const [tagsSelected, setTagsSelected] = useState<Array<ITag>>([])
 
     function handleToggleDropdown(): void {
         setdropdownOpened(!dropdownOpened);

@@ -14,7 +14,7 @@ export const TagsCloud = ({ tagsSelected, handleRemTag }:
 
   <div className="tags">
     {tagsSelected.map((tag) => (
-      <div className="tag font">
+      <div className="tag font" key={`${tag.category} ${tag.name}`}>
         {`${tag.category}: ${tag.name}`}
         <span className="close" onClick={() => handleRemTag(tag)} />
       </div>

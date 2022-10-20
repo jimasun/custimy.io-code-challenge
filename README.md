@@ -1,3 +1,25 @@
+# Task Outline
+- Create a stand-alone ReactJS application
+- Create a button-dropdown component based on the design provided
+- Create a tag button component based on the design provided
+- Create a single view and implement said components wherever you see fit.
+
+# Bonus:
+- Persist the selected options across page reload.
+- Use Typescript, set up Storybook or some other exciting thing!
+
+# Design
+https://www.figma.com/file/fbRCYXlj06yggL7ZArLWTp/Dropdown-Mockup-Challenge
+
+# TODO
+- fix remove tag propagation
+- implement search function
+- some refactoring on component structure
+- add persistance (local)
+- link data source (mongo)
+- setup storybook
+
+_______________________________________________________________________________
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.

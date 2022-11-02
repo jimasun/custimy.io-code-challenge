@@ -26,11 +26,18 @@ export const TagsList = ({ category, items, active, tagsSelected, handleAddTag }
         }
     }
 
+    function handleRemTag(tag: ITag) {
+        if (!tagsSelected.includes(tag)) {
+            // event.currentTarget.classList.remove('selected')
+        }
+    }
+
     return (
         <div className={`entries ${active && 'selected'}`}>
             {items.map((name: string) =>
                 <div className={`entry font ${tagsSelected.includes({ category, name }) && 'selected'}`}
-                    onClick={(event) => handleItemClick(event, { category, name })}>
+                    onClick={(event) => handleItemClick(event, { category, name })}
+                    key={`${category} ${name}`}>
                     <span className={`icon ${genIconName(name)}`} />
                     {name}
                 </div>

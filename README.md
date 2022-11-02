@@ -19,6 +19,7 @@ https://www.figma.com/file/fbRCYXlj06yggL7ZArLWTp/Dropdown-Mockup-Challenge
 - link data source (mongo)
 - setup storybook
 
+![screenshot](./screenshot.png)
 _______________________________________________________________________________
 # Getting Started with Create React App
 
